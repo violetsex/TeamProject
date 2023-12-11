@@ -4,6 +4,30 @@ import java.util.Scanner;
 
 public class Game {
     public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        String username, password;
+        System.out.println("Welcome to Swashbuckler");
+
+        // Registration
+        System.out.println("Please enter a username for registration:");
+        username = sc.nextLine();
+        System.out.println("Please enter a password for registration:");
+        password = sc.nextLine();
+        System.out.println("Registration successful!");
+
+        // Login
+        System.out.println("Please enter your username for login:");
+        String inputUsername = sc.nextLine();
+        System.out.println("Please enter your password for login:");
+        String inputPassword = sc.nextLine();
+
+        if (inputUsername.equals(username) && inputPassword.equals(password)) {
+            System.out.println("Login successful!");
+        } else {
+            System.out.println("Incorrect username or password. Please try again.");
+        }
+        
         // Operating system, keyboard interaction
         RoleManagementSystem roleManagementSystem = new RoleManagementSystem();
         Scanner scanner = new Scanner(System.in);
