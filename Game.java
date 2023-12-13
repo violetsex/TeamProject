@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Game {
     public static void main(String[] args) {
 
+        //Fuzzy search
+        
         //Enter the game
         Scanner sc = new Scanner(System.in);
         String username, password;
