@@ -35,7 +35,7 @@ public class Game {
         RoleManagementSystem roleManagementSystem = new RoleManagementSystem();
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Welcome to the Role Combat Game!");
+            System.out.println("Welcome to the Swashbuckler!");
             System.out.println("1. Create Role");
             System.out.println("2. Show Role Information");
             System.out.println("3. Modify Role blood volume");
