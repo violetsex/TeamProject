@@ -32,7 +32,7 @@ public class RoleManagementSystem {
 
     public Role findRole(String roleName) {
         for (Role role : roles) {
-            if (role.getName().equals(roleName)) {
+            if (role.getName().toLowerCase().contains(roleName.toLowerCase())) {
                 return role;
             }
         }
