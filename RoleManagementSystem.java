@@ -30,6 +30,7 @@ public class RoleManagementSystem {
         return roles;
     }
 
+    //Fuzzy search
     public Role findRole(String roleName) {
         for (Role role : roles) {
             if (role.getName().toLowerCase().contains(roleName.toLowerCase())) {
