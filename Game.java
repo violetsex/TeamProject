@@ -30,6 +30,7 @@ public class Game {
             System.out.println("Incorrect username or password. Please try again.");
         }
         
+        
         // Operating system, keyboard interaction
         RoleManagementSystem roleManagementSystem = new RoleManagementSystem();
         Scanner scanner = new Scanner(System.in);
