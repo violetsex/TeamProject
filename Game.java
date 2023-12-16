@@ -2,6 +2,11 @@ import java.util.List;
 import java.util.Scanner;
 
 
+/*
+Game Introduction: The Pleasure and Revenge of Two Martial Arts Masters.
+This game features a text version of a duel between two characters,
+with all the moves and reactions taken from traditional Chinese martial arts novels.
+*/
 public class Game {
     public static void main(String[] args) {
 
@@ -9,7 +14,7 @@ public class Game {
         //Enter the game
         Scanner sc = new Scanner(System.in);
         String username, password;
-        System.out.println("Welcome to Swashbuckler");
+        System.out.println("Welcome to Knight-erran");
 
         // Registration
         System.out.println("Please enter a username for registration:");
